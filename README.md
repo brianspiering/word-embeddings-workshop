@@ -1,6 +1,8 @@
 Creating Word Embeddings with Brian Spiering
 -------
 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/brianspiering/word-embedding-workshop/master)
+
 Word embedding is a set of relatively new techniques in natural language processing that have proven to be very useful and popular for making sense of textual data.
 
 Using neural networks, mappings can be created between words (strings) and vectors (arrays of floats) which can then be used to boost the performance of tasks such as sentiment analysis.
