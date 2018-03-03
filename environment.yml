@@ -9,5 +9,8 @@ dependencies:
   - tensorflow == 1.5
   - keras >= 2
   - gensim
+  - matplotlib
+  - numpy
+  - scikit-learn
   - rise
   - pip
