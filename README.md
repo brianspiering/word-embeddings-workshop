@@ -7,7 +7,7 @@ Word embeddings is a set of relatively new techniques in natural language proces
 
 Using neural networks, mappings can be created between words (strings) and vectors (arrays of floats) which can then be used to boost the performance of tasks such as sentiment analysis.
 
-This workshop will give a technical introduction to several word embedding algorithms: word2vec, GloVe, and doc2vec. After developing an understanding of the algorihms, you will have a chance to try them out on different text datasets.
+This workshop will give a technical introduction to several word embedding algorithms: word2vec and doc2vec. After developing an understanding of the algorihms, you will have a chance to try them out on different text datasets.
 
 About Brian
 -----
