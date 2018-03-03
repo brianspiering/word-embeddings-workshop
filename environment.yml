@@ -3,11 +3,11 @@ channels:
   - conda-forge
   - damianavila82
 dependencies:
-  - python == 3.6
+  - python==3.6
   - ipython
   - jupyter
-  - tensorflow == 1.5
-  - keras >= 2
+  - tensorflow==1.5
+  - keras>=2
   - gensim
   - matplotlib
   - numpy

@@ -12,11 +12,14 @@ source activate word
 # Update environment (might break stuff. move fast!?)
 conda update --all --yes
 
-# Setup spell checking
+# Setup notebook extensions
 git clone https://github.com/Calysto/notebook-extensions.git
 cd notebook-extensions
 jupyter nbextension install calysto --user
 jupyter nbextension enable calysto/spell-check/main
+jupyter nbextension enable calysto/cell-tools/main
+jupyter nbextension enable calysto/annotate/main
+cd ..
 
 # Setup RISE (https://github.com/damianavila/RISE) slideshows 
 jupyter nbextension install rise --py --sys-prefix
